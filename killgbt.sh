@@ -9,7 +9,7 @@ if [ -z $PID ] ; then
 fi
 
 if [ $PID != [:number:]* ] ; then
-	echo "PID is strange string. exiting...	
+	echo "PID is strange string. exiting..."	
 	exit
 fi
 
